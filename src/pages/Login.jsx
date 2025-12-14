@@ -1,11 +1,7 @@
-import NavBar from "../components/NavBar"
 
 function Login() {
   return (
     <>
-      <header>
-        <NavBar />
-      </header>
       <main>
         <h1>Login</h1>
         <form>
@@ -13,7 +9,7 @@ function Login() {
             <label htmlFor="username">Username: </label>
             <input id="username" type="text" name="username" placeholder="Username" />
           </div>
-          <br/>
+          <br />
           <button type="submit">Submit</button>
         </form>
       </main>
